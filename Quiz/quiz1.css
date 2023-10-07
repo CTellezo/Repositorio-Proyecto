@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(161,0,185);
+    background: linear-gradient(90deg, rgba(161,0,185,1) 0%, rgba(41,81,187,1) 50%, rgba(0,159,255,1) 100%);
+}
+
+.conborde{
+    border: 5px solid rgb(0, 0, 0);
+    }
+
+    button{
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    margin: 10px auto;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    background: black;
+    color: blue;
+    border: solid black;
+    box-shadow: 0px 0px 10px blue;
+      }
+
+      button:hover{
+        transform: scale(1.0);
+        background-color: rgb(255, 255, 255);
+        color: #000000;
+        transition: 2s all ease;
+    }
+
+/* Boton regresar */
+.my-button {
+    padding: 20px 45px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid black;
+  } .my-button:hover {background-color: #c48400;}
+  .my-button:active {background-color: black;}

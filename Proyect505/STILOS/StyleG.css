@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    border-left: yellow solid 7px;
+    border-right: yellow solid 7px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: azure;
+    font-size: 7cqb;
+}
+.CajaG{
+    align-items: center;
+    background: slategrey;
+    height: auto;
+    margin-left: 60px;
+    width: 1200px;
+    box-sizing: content-box;
+}
+.IMG1{
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.IMG2{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.IMG3{
+    height: 266.5px ;
+    width:400px ;
+  
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-top: 5px outset rgb(129, 10, 10);
+    border-left: 5px outset rgb(129, 10, 10);
+
+}
+
+.IMG4{
+    width: 969px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.IMG5{
+width: 650px;
+height: 410px; ;
+margin-top: 20px;
+margin-bottom:20px ;
+margin-left: 200px;
+border-right: 5px solid black;
+border-bottom: 5px solid black;
+border-top: 5px outset rgb(129, 10, 10);
+border-left: 5px outset rgb(129, 10, 10);
+}
+
+.Text{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: justify;
+    font-size: 3cqb;
+    color: rgb(8, 78, 8);
+    
+}
+.C1{
+    width: 1110px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+
+    box-sizing: content-box;
+}
+.SUBS{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5cqh;
+    text-align: justify;
+}
+
+footer{
+  
+    width: 98.9vw;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: content-box;
+    background: rgb(218, 12, 12);
+    position: relative;
+  bottom: 0px;
+}
+
+.TF{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   font-size: 4cqb;
+   text-shadow: black -5px 10px 5px;
+   
+}
