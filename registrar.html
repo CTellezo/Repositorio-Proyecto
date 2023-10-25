@@ -12,7 +12,7 @@
 
 			<li class="first-item">
 				<a href="0Menu.html">
-					<img src="img/icono.png" alt="" class="imagen">
+					<img src="" alt="" class="imagen">
 					<span class="text-item">Menu</span>
 					<span class="down-item"></span>
 				</a>
@@ -22,24 +22,44 @@
 	</nav>
 
 
-    <section id="" class="">
-                <article><h1>Registro de Usuarios</h1></article>
-            <article><img src="img/RockNRoll.jpg" alt=""></article>
-            <article> Nombre</article>
-            <article>  <input type="text" class="form-control" id="nombre" placeholder="..."> </article>
+    <section id="" >
+        <article class="Titulo">
+            <h1>Registro de Usuarios</h1>
+        </article>
+        <main  class="Caja" id="usuarioForm">
+            
+            <article><img class="IMG" src="img/RockNRoll.jpg" alt="Por el momento no carga"></article>
+
+            <article class="CT"> <p class="TT">Nombre</p></article>
+            <article >  <input type="text" class="form-control" id="nombre" placeholder="..."> </article>
+
+            <article class="CT"> <p class="TT">Apellido</p></article>
+            <article >  <input type="text" class="form-control" id="apellido" placeholder="..."> </article>
                 
-            <article></article>
-            <article></article>
-            <article></article>
+            <article class="CT"><p class="TT">Sexo</p>  </article>
+            <article><input type="text" class="form-control" id="sexo" placeholder="..."> </article>
 
+            <article class="CT"> <p class="TT">Intrumento que toques actualmente</p></article>
+            <article><input type="text" class="form-control" id="Instrumento" placeholder="..."> </article>
 
+    
+          
+                    <article class="CT"> <p class="TT">Correo</p></article>
+                    <article>  <input type="email" class="form-control" id="correo" placeholder="..."> </article>
+        
+                    <article class="CT"> <p class="TT">Contraseña</p></article>
+                    <article>  <input type="password" class="form-control" id="contraseña" placeholder="..."> </article>
 
-
-
+                    <button type="button" onclick="obtenerYMostrarDatos()" >Guardar Datos</button>
+                
+            </main>
     </section>
 
 
-    <footer></footer>
+    <footer class="footer">
+        <p class="pp">Blog Culminado Temporalmente, Programado y editado por su Servidor:</p>
+        <p class="pp">Canaan Uriel Tellez Rodriguez</p>
+    </footer>
 </body>
 <script src="./js/Registro.js"></script>
 </html>
