@@ -243,4 +243,6 @@ border-radius: 50px; /*bordes redondos*/
   .my-button:active {background-color: black;}
 
 
-
+.Caja{
+    text-align: center;
+}
